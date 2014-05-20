@@ -1,0 +1,59 @@
+---
+module:
+  name: "ng"
+uis:
+  - name: $anchorScroll
+    type: service
+  - name: $timeout
+    type: service
+  - name: $window
+    type: service
+  - name: $animate
+    type: service
+  - name: $cacheFactory
+    type: service
+  - name: $compile
+    type: service
+  - name: $controller
+    type: service
+  - name: $document
+    type: service
+  - name: $exceptionHandler
+    type: service
+  - name: $filter
+    type: service
+  - name: $http
+    type: service
+  - name: $httpBackend
+    type: service
+  - name: $interpolate
+    type: service
+  - name: $locale
+    type: service
+  - name: $location
+    type: service
+  - name: $log
+    type: service
+  - name: $parse
+    type: service
+  - name: $q
+    type: service
+  - name: $rootElement
+    type: service
+  - name: $rootScope
+    type: service
+  - name: $sce
+    type: service
+  - name: $rootElement
+    type: service
+  - name: $rootScope
+    type: service
+  - name: $sce
+    type: service
+  - name: $sceDelegate
+    type: service
+actions:
+  javascript:
+    include?: false
+  module:
+    include?: false
